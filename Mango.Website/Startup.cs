@@ -29,6 +29,10 @@ namespace Mango.Website
             services.AddHttpClient<IProductService, ProductService>();
             Constants.ProductAPIBase = Configuration["ServiceURLs:ProductAPIURL"];
             services.AddScoped<IProductService, ProductService>();
+
+            services.AddHttpClient<IMessageService, MessageService>();
+            
+            services.AddScoped<IMessageService, MessageService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

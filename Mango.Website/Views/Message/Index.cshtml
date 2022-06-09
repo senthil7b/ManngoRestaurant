@@ -1,0 +1,11 @@
+﻿@model MessageRequest
+
+    <form asp-action="Index" method="post">
+        <h2>Messaging Service</h2>
+
+        <label> Type the message to be sent to the Subscribers</label>
+        <input asp-for="Message" />
+        <button type="submit">Send Message</button>
+
+        <label>Message Id : @Model?.MessageId</label>
+    </form>
