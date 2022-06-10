@@ -7,5 +7,35 @@
         <input asp-for="Message" />
         <button type="submit">Send Message</button>
 
+        <br />
         <label>Message Id : @Model?.MessageId</label>
     </form>
+
+
+<button onclick="pullMessage()">Pull Message</button>
+<label>Pulled Messages : </label>
+<div id="messageList">
+
+</div>
+
+<script type="text/javascript">
+
+   
+
+    function pullMessage() {
+        debugger;
+        $.ajax({
+            type: "GET",
+            url: "@Url.Action("PullMessage","Message")",
+            dataType: "application/json",
+            success: function (msg) {
+                debugger;
+                
+            },
+            error: function (err) {
+                debugger;
+            }
+        });
+    }
+
+</script>

@@ -22,5 +22,16 @@ namespace Mango.Website.Services
                 AccessToken = ""
             });
         }
+
+        public async Task<T> PullMessage<T>()
+        {
+            return await this.SendAsync<T>(new APIRequest()
+            {
+                aPIType = Constants.APIType.GET,
+                Data = "",
+                URL = Constants.ProductAPIBase + "/api/subscribe",
+                AccessToken = ""
+            });
+        }
     }
 }

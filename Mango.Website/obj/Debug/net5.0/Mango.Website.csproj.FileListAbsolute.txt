@@ -413,3 +413,4 @@ C:\Users\senth\Microservices\ManngoRestaurant\Mango.Website\obj\Debug\net5.0\Man
 C:\Users\senth\Microservices\ManngoRestaurant\Mango.Website\obj\Debug\net5.0\ref\Mango.Website.dll
 C:\Users\senth\Microservices\ManngoRestaurant\Mango.Website\obj\Debug\net5.0\Mango.Website.pdb
 C:\Users\senth\Microservices\ManngoRestaurant\Mango.Website\obj\Debug\net5.0\Mango.Website.genruntimeconfig.cache
+C:\Users\senth\Microservices\ManngoRestaurant\Mango.Website\bin\Debug\net5.0\libman.json

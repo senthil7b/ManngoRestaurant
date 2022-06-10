@@ -427,3 +427,4 @@ C:\Users\senth\Microservices\ManngoRestaurant\Services.PublisherAPI\obj\Debug\ne
 C:\Users\senth\Microservices\ManngoRestaurant\Services.PublisherAPI\obj\Debug\net5.0\ref\Services.PublisherAPI.dll
 C:\Users\senth\Microservices\ManngoRestaurant\Services.PublisherAPI\obj\Debug\net5.0\Services.PublisherAPI.pdb
 C:\Users\senth\Microservices\ManngoRestaurant\Services.PublisherAPI\obj\Debug\net5.0\Services.PublisherAPI.genruntimeconfig.cache
+C:\Users\senth\Microservices\ManngoRestaurant\Services.PublisherAPI\bin\Debug\net5.0\libman.json

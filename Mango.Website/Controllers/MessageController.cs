@@ -1,6 +1,7 @@
 ﻿using Mango.Website.Models;
 using Mango.Website.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +35,16 @@ namespace Mango.Website.Controllers
                 return View(_message);
             }
             return View();
+        }
+
+        
+        public async Task<IActionResult> PullMessage()
+        {
+            
+                var response = await _messageService.PullMessage<ResponseDTO>();
+               
+            
+            return Json(JsonConvert.SerializeObject(response));
         }
 
     }
