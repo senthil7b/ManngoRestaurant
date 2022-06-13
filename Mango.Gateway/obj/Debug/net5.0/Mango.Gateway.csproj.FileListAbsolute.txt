@@ -31,3 +31,4 @@ C:\Users\senth\Microservices\ManngoRestaurant\Mango.Gateway\obj\Debug\net5.0\Man
 C:\Users\senth\Microservices\ManngoRestaurant\Mango.Gateway\obj\Debug\net5.0\ref\Mango.Gateway.dll
 C:\Users\senth\Microservices\ManngoRestaurant\Mango.Gateway\obj\Debug\net5.0\Mango.Gateway.pdb
 C:\Users\senth\Microservices\ManngoRestaurant\Mango.Gateway\obj\Debug\net5.0\Mango.Gateway.genruntimeconfig.cache
+C:\Users\senth\Microservices\ManngoRestaurant\Mango.Gateway\obj\Debug\net5.0\Mango.Gateway.csproj.AssemblyReference.cache

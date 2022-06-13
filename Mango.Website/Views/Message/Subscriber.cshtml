@@ -1,0 +1,24 @@
+﻿@model SubscriberResponse;
+
+<h2>Subscriber</h2>
+<br />
+
+@if (Model?.SubscriberMessages?.Count > 0)
+{
+<h3>Messages to Subscriber</h3>
+
+<ul>
+    @foreach (var msg in Model.SubscriberMessages)
+    {
+                <li>@msg</li>
+    }
+</ul>
+}
+            else
+            {
+                <p>No messages retrieved/sent</p>
+            }
+
+<br />
+
+<a asp-action="Index" asp-controller="Message">Return to Publisher</a>

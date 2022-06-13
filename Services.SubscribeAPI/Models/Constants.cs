@@ -8,11 +8,11 @@ namespace Services.SubscribeAPI.Models
     public class Constants
     {
 
-        public const string ProjectId = "crack-braid-352522";
+        public const string ProjectId = "microservicesproject-352921";
 
-        public const string TopicId = "MangoMessageTopic";
+        public const string TopicId = "PublishTopic";
 
-        public const string SubscriptionId = "MangoMessageSubscription";
+        public const string SubscriptionId = "MessageSubscriber";
 
         public const string SubscriptionName = "";
     }

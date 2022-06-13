@@ -1,5 +1,9 @@
 ﻿@model MessageRequest
 
+<h2>Publisher</h2>
+
+<br />
+
     <form asp-action="Index" method="post">
         <h2>Messaging Service</h2>
 
@@ -8,17 +12,17 @@
         <button type="submit">Send Message</button>
 
         <br />
-        <label>Message Id : @Model?.MessageId</label>
     </form>
 
+<a asp-action="PullMessage" asp-controller="Message">View Subscriber</a>
 
-<button onclick="pullMessage()">Pull Message</button>
+@*<button onclick="pullMessage()">Pull Message</button>
 <label>Pulled Messages : </label>
 <div id="messageList">
 
-</div>
+</div>*@
 
-<script type="text/javascript">
+@*<script type="text/javascript">
 
    
 
@@ -38,4 +42,4 @@
         });
     }
 
-</script>
+</script>*@
